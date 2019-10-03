@@ -1,18 +1,21 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<title>Todo App</title>
+	<script
+				  src="https://code.jquery.com/jquery-1.12.3.js"
+				  integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="
+				  crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>Hello!</h1>
-	<h3>Remember your plans? </h3>
 
-	<form>
-	<input><button>Add</button>
+	<form autocomplete=“off”>
+		<input type="text" name="item" placeholder="Add new item ..." autocomplete="off" required>
+		<button >Add Item</button>
 	</form>
-
-	<ul></ul>
-	 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<h1></h1>
+	<ul>
+	</ul>
     <script src="https://cdn.jsdelivr.net/npm/gun/gun.js"></script>
     <script>
 
